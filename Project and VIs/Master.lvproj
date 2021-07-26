@@ -11,43 +11,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Calibration .txt files" Type="Folder">
-			<Item Name="Old Calibrations" Type="Folder">
-				<Item Name="Calibration Values_Fri, Feb 02, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Fri, Feb 02, 2018.txt"/>
-				<Item Name="Calibration Values_Fri, Feb 16, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Fri, Feb 16, 2018.txt"/>
-				<Item Name="Calibration Values_Fri, Feb 23, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Fri, Feb 23, 2018.txt"/>
-				<Item Name="Calibration Values_Fri, Mar 09, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Fri, Mar 09, 2018.txt"/>
-				<Item Name="Calibration Values_Mon, Feb 26, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Mon, Feb 26, 2018.txt"/>
-				<Item Name="Calibration Values_Mon, Mar 05, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Mon, Mar 05, 2018.txt"/>
-				<Item Name="Calibration Values_Thu, Jan 11, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Thu, Jan 11, 2018.txt"/>
-				<Item Name="Calibration Values_Thu, Jan 18, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Thu, Jan 18, 2018.txt"/>
-				<Item Name="Calibration Values_Thu, Nov 09, 2017.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Thu, Nov 09, 2017.txt"/>
-				<Item Name="Calibration Values_Wed, Feb 21, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Wed, Feb 21, 2018.txt"/>
-				<Item Name="Calibration Values_Wed, Feb 28, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Wed, Feb 28, 2018.txt"/>
-				<Item Name="Calibration Values_Wed, Mar 07, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Wed, Mar 07, 2018.txt"/>
-				<Item Name="Calibration Values_Wed, Mar 14, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration Values_Wed, Mar 14, 2018.txt"/>
-				<Item Name="Calibration ValuesThursday, November 09, 2017.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Calibration ValuesThursday, November 09, 2017.txt"/>
-				<Item Name="Flow Array_Fri, Feb 02, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Fri, Feb 02, 2018.txt"/>
-				<Item Name="Flow Array_Fri, Feb 16, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Fri, Feb 16, 2018.txt"/>
-				<Item Name="Flow Array_Fri, Feb 23, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Fri, Feb 23, 2018.txt"/>
-				<Item Name="Flow Array_Fri, Jan 19, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Fri, Jan 19, 2018.txt"/>
-				<Item Name="Flow Array_Fri, Mar 09, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Fri, Mar 09, 2018.txt"/>
-				<Item Name="Flow Array_Mon, Feb 26, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Mon, Feb 26, 2018.txt"/>
-				<Item Name="Flow Array_Mon, Mar 05, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Mon, Mar 05, 2018.txt"/>
-				<Item Name="Flow Array_Thu, Jan 11, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Thu, Jan 11, 2018.txt"/>
-				<Item Name="Flow Array_Thu, Jan 18, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Thu, Jan 18, 2018.txt"/>
-				<Item Name="Flow Array_Thu, Nov 09, 2017.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Thu, Nov 09, 2017.txt"/>
-				<Item Name="Flow Array_Wed, Feb 21, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Wed, Feb 21, 2018.txt"/>
-				<Item Name="Flow Array_Wed, Feb 28, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Wed, Feb 28, 2018.txt"/>
-				<Item Name="Flow Array_Wed, Mar 07, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Wed, Mar 07, 2018.txt"/>
-				<Item Name="Flow Array_Wed, Mar 14, 2018.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Flow Array_Wed, Mar 14, 2018.txt"/>
-				<Item Name="Jan 19.txt" Type="Document" URL="../Calibration .txt files/Old Calibrations/Jan 19.txt"/>
-			</Item>
-			<Item Name="Calibration Values.txt" Type="Document" URL="../Calibration .txt files/Calibration Values.txt"/>
-			<Item Name="Flow Array.txt" Type="Document" URL="../Calibration .txt files/Flow Array.txt"/>
-			<Item Name="SH Cali.txt" Type="Document" URL="../Calibration .txt files/SH Cali.txt"/>
-			<Item Name="SPL Gain.txt" Type="Document" URL="../Calibration .txt files/SPL Gain.txt"/>
-		</Item>
 		<Item Name="LVM Fixer" Type="Folder">
 			<Item Name="Main.vi" Type="VI" URL="../Main VIs/LVM Fixer/Main.vi"/>
 			<Item Name="Open LVM Data.vi" Type="VI" URL="../Main VIs/LVM Fixer/Open LVM Data.vi"/>
@@ -58,6 +21,7 @@
 		<Item Name="Master VI.vi" Type="VI" URL="../Master VI.vi"/>
 		<Item Name="digitalsignalanalyzer_GaS_icon.ico" Type="Document" URL="../Documents/digitalsignalanalyzer_GaS_icon.ico"/>
 		<Item Name="favicon.ico" Type="Document" URL="../Documents/favicon.ico"/>
+		<Item Name="Select Device.vi" Type="VI" URL="../Collection Support/SubVIs/Select Device.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -850,19 +814,19 @@
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].dest" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
 				<Property Name="Source[1].name" Type="Str">Calibration Values.txt</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Calibration .txt files/Calibration Values.txt</Property>
+				<Property Name="Source[1].tag" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
 				<Property Name="Source[2].dest" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
 				<Property Name="Source[2].name" Type="Str">Flow Array.txt</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/Calibration .txt files/Flow Array.txt</Property>
+				<Property Name="Source[2].tag" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
 				<Property Name="Source[3].name" Type="Str">SH Cali.txt</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/Calibration .txt files/SH Cali.txt</Property>
+				<Property Name="Source[3].tag" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
 				<Property Name="Source[4].dest" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
 				<Property Name="Source[4].name" Type="Str">SPL Gain.txt</Property>
-				<Property Name="Source[4].tag" Type="Ref">/My Computer/Calibration .txt files/SPL Gain.txt</Property>
+				<Property Name="Source[4].tag" Type="Ref"></Property>
 				<Property Name="Source[4].type" Type="Str">File</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
