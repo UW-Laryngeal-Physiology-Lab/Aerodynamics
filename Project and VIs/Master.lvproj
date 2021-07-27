@@ -11,17 +11,109 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="LVM Fixer" Type="Folder">
-			<Item Name="Main.vi" Type="VI" URL="../Main VIs/LVM Fixer/Main.vi"/>
-			<Item Name="Open LVM Data.vi" Type="VI" URL="../Main VIs/LVM Fixer/Open LVM Data.vi"/>
+		<Item Name="Main VIs" Type="Folder">
+			<Item Name="Aerodynamics Collection.vi" Type="VI" URL="../Main VIs/Aerodynamics Collection.vi"/>
+			<Item Name="Analysis MASTER.vi" Type="VI" URL="../Main VIs/Analysis MASTER.vi"/>
+			<Item Name="Calibrate Helmet.vi" Type="VI" URL="../Main VIs/Calibrate Helmet.vi"/>
+			<Item Name="Calibrate Pneumotach.vi" Type="VI" URL="../Main VIs/Calibrate Pneumotach.vi"/>
+			<Item Name="Clipper.vi" Type="VI" URL="../Main VIs/Clipper.vi"/>
+			<Item Name="Extract Data.vi" Type="VI" URL="../Main VIs/Extract Data.vi"/>
+			<Item Name="Extract F0.vi" Type="VI" URL="../Main VIs/Extract F0.vi"/>
+			<Item Name="Gain Estimator.vi" Type="VI" URL="../Main VIs/Gain Estimator.vi"/>
+			<Item Name="LVM Fixer.vi" Type="VI" URL="../Main VIs/LVM Fixer.vi"/>
+			<Item Name="Random Task Order.vi" Type="VI" URL="../Main VIs/Random Task Order.vi"/>
+			<Item Name="Timeout Check.vi" Type="VI" URL="../Main VIs/Timeout Check.vi"/>
 		</Item>
-		<Item Name="AnalysisSupport.lvlib" Type="Library" URL="../AnalysisSupport.lvlib"/>
-		<Item Name="CollectionSupport.lvlib" Type="Library" URL="../CollectionSupport.lvlib"/>
-		<Item Name="MainVIs.lvlib" Type="Library" URL="../MainVIs.lvlib"/>
+		<Item Name="Analysis Support" Type="Folder">
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Main Analysis-Incomplete.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Incomplete.vi"/>
+				<Item Name="Main Analysis-Labial.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Labial.vi"/>
+				<Item Name="Main Analysis-Mechanical.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Mechanical.vi"/>
+				<Item Name="Find SGP and PTP.vi" Type="VI" URL="../Analysis Support/SubVIs/Find SGP and PTP.vi"/>
+				<Item Name="Flow.vi" Type="VI" URL="../Analysis Support/SubVIs/Flow.vi"/>
+				<Item Name="Incomplete Analysis Type Selection.vi" Type="VI" URL="../Analysis Support/SubVIs/Incomplete Analysis Type Selection.vi"/>
+				<Item Name="Labial Pressure Marker.vi" Type="VI" URL="../Analysis Support/SubVIs/Labial Pressure Marker.vi"/>
+				<Item Name="Mark Phonation Cutoff (Incomplete).vi" Type="VI" URL="../Analysis Support/SubVIs/Mark Phonation Cutoff (Incomplete).vi"/>
+				<Item Name="Max Pressure Find.vi" Type="VI" URL="../Analysis Support/SubVIs/Max Pressure Find.vi"/>
+				<Item Name="MFR - Complete.vi" Type="VI" URL="../Analysis Support/SubVIs/MFR - Complete.vi"/>
+				<Item Name="Read SPL Comment.vi" Type="VI" URL="../Analysis Support/SubVIs/Read SPL Comment.vi"/>
+				<Item Name="Pressure.vi" Type="VI" URL="../Analysis Support/SubVIs/Pressure.vi"/>
+				<Item Name="Remove Between Cursors.vi" Type="VI" URL="../Analysis Support/SubVIs/Remove Between Cursors.vi"/>
+				<Item Name="Save Data.vi" Type="VI" URL="../Analysis Support/SubVIs/Save Data.vi"/>
+				<Item Name="SGP Calculator.vi" Type="VI" URL="../Analysis Support/SubVIs/SGP Calculator.vi"/>
+				<Item Name="SplitSignals.vi" Type="VI" URL="../Analysis Support/SubVIs/SplitSignals.vi"/>
+				<Item Name="Main Analysis-Redirector.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Redirector.vi"/>
+				<Item Name="Check for Empty Data.vi" Type="VI" URL="../Analysis Support/SubVIs/Check for Empty Data.vi"/>
+			</Item>
+			<Item Name="Controls" Type="Folder">
+				<Item Name="F0 Cluster.ctl" Type="VI" URL="../Analysis Support/Controls/F0 Cluster.ctl"/>
+				<Item Name="F0 Extraction States.ctl" Type="VI" URL="../Analysis Support/Controls/F0 Extraction States.ctl"/>
+				<Item Name="F0 Extraction Test Types.ctl" Type="VI" URL="../Analysis Support/Controls/F0 Extraction Test Types.ctl"/>
+				<Item Name="Intervals.ctl" Type="VI" URL="../Analysis Support/Controls/Intervals.ctl"/>
+				<Item Name="Master Analysis States.ctl" Type="VI" URL="../Analysis Support/Controls/Master Analysis States.ctl"/>
+				<Item Name="Select Analysis.ctl" Type="VI" URL="../Analysis Support/Controls/Select Analysis.ctl"/>
+				<Item Name="UI Data-Clipper.ctl" Type="VI" URL="../Analysis Support/Controls/UI Data-Clipper.ctl"/>
+			</Item>
+			<Item Name="Stand-alone Analysis.vi" Type="VI" URL="../Analysis Support/Stand-alone Analysis.vi"/>
+		</Item>
+		<Item Name="Calibration Support" Type="Folder">
+			<Item Name="Fit Curves.vi" Type="VI" URL="../Calibration Support/Fit Curves.vi"/>
+		</Item>
+		<Item Name="Collection Support" Type="Folder">
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Convert Flow Array.vi" Type="VI" URL="../Collection Support/SubVIs/Convert Flow Array.vi"/>
+				<Item Name="Find Match Values.vi" Type="VI" URL="../Analysis Support/SubVIs/Find Match Values.vi"/>
+				<Item Name="Flow Array Compare.vi" Type="VI" URL="../Collection Support/SubVIs/Flow Array Compare.vi"/>
+				<Item Name="Get Calibration Data.vi" Type="VI" URL="../Collection Support/SubVIs/Get Calibration Data.vi"/>
+				<Item Name="Random Second.vi" Type="VI" URL="../Collection Support/SubVIs/Random Second.vi"/>
+				<Item Name="Random Times.vi" Type="VI" URL="../Collection Support/SubVIs/Random Times.vi"/>
+				<Item Name="Slope Calibration.vi" Type="VI" URL="../Collection Support/SubVIs/Slope Calibration.vi"/>
+				<Item Name="Sound Out.vi" Type="VI" URL="../Collection Support/SubVIs/Sound Out.vi"/>
+				<Item Name="SPL Calculator (2).vi" Type="VI" URL="../Collection Support/SubVIs/SPL Calculator (2).vi"/>
+				<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Collection Support/SubVIs/Set Enable State on Multiple Controls.vi"/>
+				<Item Name="SPL Calculator.vi" Type="VI" URL="../Collection Support/SubVIs/SPL Calculator.vi"/>
+				<Item Name="Test Type Selection.vi" Type="VI" URL="../Collection Support/SubVIs/Test Type Selection.vi"/>
+				<Item Name="Trial Counter.vi" Type="VI" URL="../Collection Support/SubVIs/Trial Counter.vi"/>
+				<Item Name="Trial time controls.vi" Type="VI" URL="../Collection Support/SubVIs/Trial time controls.vi"/>
+			</Item>
+			<Item Name="Controls" Type="Folder">
+				<Item Name="Balloon.ctl" Type="VI" URL="../Collection Support/Controls/Balloon.ctl"/>
+				<Item Name="FirstCall.ctl" Type="VI" URL="../Collection Support/Controls/FirstCall.ctl"/>
+				<Item Name="Male_Female.ctl" Type="VI" URL="../Collection Support/Controls/Male_Female.ctl"/>
+				<Item Name="Mech-Labial Test Types.ctl" Type="VI" URL="../Collection Support/Controls/Mech-Labial Test Types.ctl"/>
+				<Item Name="PED States.ctl" Type="VI" URL="../Collection Support/Controls/PED States.ctl"/>
+				<Item Name="Test Type.ctl" Type="VI" URL="../Collection Support/Controls/Test Type.ctl"/>
+			</Item>
+			<Item Name="Loop Controls" Type="Folder">
+				<Item Name="Balloon Control.vi" Type="VI" URL="../Collection Support/SubVIs/Balloon Control.vi"/>
+				<Item Name="Check Loop Error.vi" Type="VI" URL="../Collection Support/SubVIs/Check Loop Error.vi"/>
+				<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../Collection Support/SubVIs/Error Handler - Event Handling Loop.vi"/>
+				<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../Collection Support/SubVIs/Error Handler - Message Handling Loop.vi"/>
+			</Item>
+			<Item Name="Message Queue" Type="Folder">
+				<Item Name="support" Type="Folder">
+					<Item Name="Enqueue Message (Single).vi" Type="VI" URL="../Collection Support/Message Queue/Enqueue Message (Single).vi"/>
+					<Item Name="Enqueue Message (Array).vi" Type="VI" URL="../Collection Support/Message Queue/Enqueue Message (Array).vi"/>
+					<Item Name="All Message Queues.ctl" Type="VI" URL="../Collection Support/Message Queue/All Message Queues.ctl"/>
+					<Item Name="Message Cluster.ctl" Type="VI" URL="../Collection Support/Message Queue/Message Cluster.ctl"/>
+				</Item>
+				<Item Name="Create All Message Queues.vi" Type="VI" URL="../Collection Support/Message Queue/Create All Message Queues.vi"/>
+				<Item Name="Obtain Message Queue.vi" Type="VI" URL="../Collection Support/Message Queue/Obtain Message Queue.vi"/>
+				<Item Name="Enqueue Message.vi" Type="VI" URL="../Collection Support/Message Queue/Enqueue Message.vi"/>
+				<Item Name="Dequeue Message.vi" Type="VI" URL="../Collection Support/Message Queue/Dequeue Message.vi"/>
+			</Item>
+			<Item Name="User Event - Stop" Type="Folder">
+				<Item Name="Create User Event - Stop.vi" Type="VI" URL="../Collection Support/User Event - Stop/Create User Event - Stop.vi"/>
+				<Item Name="Fire User Event - Stop.vi" Type="VI" URL="../Collection Support/User Event - Stop/Fire User Event - Stop.vi"/>
+				<Item Name="Destroy User Event - Stop.vi" Type="VI" URL="../Collection Support/User Event - Stop/Destroy User Event - Stop.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Images" Type="Folder">
+			<Item Name="favicon.ico" Type="Document" URL="../Images/favicon.ico"/>
+			<Item Name="DigitalSignalAnalyzer.png" Type="Document" URL="../Images/DigitalSignalAnalyzer.png"/>
+			<Item Name="digitalsignalanalyzer_GaS_icon.ico" Type="Document" URL="../Images/digitalsignalanalyzer_GaS_icon.ico"/>
+		</Item>
 		<Item Name="Master VI.vi" Type="VI" URL="../Master VI.vi"/>
-		<Item Name="digitalsignalanalyzer_GaS_icon.ico" Type="Document" URL="../Documents/digitalsignalanalyzer_GaS_icon.ico"/>
-		<Item Name="favicon.ico" Type="Document" URL="../Documents/favicon.ico"/>
-		<Item Name="Select Device.vi" Type="VI" URL="../Collection Support/SubVIs/Select Device.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="__closeStorageFromObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__closeStorageFromObject.vi"/>
@@ -70,12 +162,6 @@
 				<Item Name="_createChildObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_createChildObject.vi"/>
 				<Item Name="_createObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_createObject.vi"/>
 				<Item Name="_findOpenStorage.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_findOpenStorage.vi"/>
-				<Item Name="_FormatFromData (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_FormatFromData (DBL).vi"/>
-				<Item Name="_FormatFromData (I16).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_FormatFromData (I16).vi"/>
-				<Item Name="_FormatFromData (I32).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_FormatFromData (I32).vi"/>
-				<Item Name="_FormatFromData (SGL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_FormatFromData (SGL).vi"/>
-				<Item Name="_FormatFromData (U8).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_FormatFromData (U8).vi"/>
-				<Item Name="_FormatFromData.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_FormatFromData.vi"/>
 				<Item Name="_Get Sound Error From Return Value.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_Get Sound Error From Return Value.vi"/>
 				<Item Name="_getChannelLength.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_getChannelLength.vi"/>
 				<Item Name="_getObjDefByName.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/_getObjDefByName.vi"/>
@@ -352,7 +438,6 @@
 				<Item Name="ex_cleanUpComment.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_cleanUpComment.vi"/>
 				<Item Name="ex_ClearBadHeaderErr.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ExFile.llb/ex_ClearBadHeaderErr.vi"/>
 				<Item Name="ex_ClearFileOpenCancelErr.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ExFile.llb/ex_ClearFileOpenCancelErr.vi"/>
-				<Item Name="Ex_Collector.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/CollectBlock.llb/Ex_Collector.vi"/>
 				<Item Name="ex_convert2DArrayToExWave.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/ExFileReadBlock.llb/ex_convert2DArrayToExWave.vi"/>
 				<Item Name="ex_convertDelim.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ExFile.llb/ex_convertDelim.vi"/>
 				<Item Name="ex_ConvertError.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ExFile.llb/ex_ConvertError.vi"/>
@@ -448,7 +533,6 @@
 				<Item Name="ex_SoftwareRevision.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ExFile.llb/ex_SoftwareRevision.ctl"/>
 				<Item Name="ex_sortOutManualAndAutoFillProperties.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/express/ex_EditUserDefinedProperties/ex_sortOutManualAndAutoFillProperties.vi"/>
 				<Item Name="ex_SplitPacketDataRow.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/ExFileReadBlock.llb/ex_SplitPacketDataRow.vi"/>
-				<Item Name="Ex_subCollector.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/CollectBlock.llb/Ex_subCollector.vi"/>
 				<Item Name="ex_subFileRead.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/ExFileReadBlock.llb/ex_subFileRead.vi"/>
 				<Item Name="ex_subFileWrite.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/ExFileWriteBlock.llb/ex_subFileWrite.vi"/>
 				<Item Name="ex_TdmData.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ExFile.llb/ex_TdmData.ctl"/>
@@ -513,8 +597,6 @@
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
-				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
-				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Sampling Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sampling Mode.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -537,13 +619,7 @@
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Sound Data Format.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Data Format.ctl"/>
-				<Item Name="Sound File Close.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Close.vi"/>
-				<Item Name="Sound File Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Refnum.ctl"/>
-				<Item Name="Sound File Write (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Write (DBL).vi"/>
-				<Item Name="Sound File Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Write Open.vi"/>
-				<Item Name="Sound File Write Simple.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Write Simple.vi"/>
 				<Item Name="Sound Output Configure.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Configure.vi"/>
-				<Item Name="Sound Output Stop.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Stop.vi"/>
 				<Item Name="Sound Output Task ID.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Task ID.ctl"/>
 				<Item Name="Sound Output Write (DBL Single).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (DBL Single).vi"/>
 				<Item Name="Sound Output Write (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (DBL).vi"/>
@@ -556,7 +632,6 @@
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
 				<Item Name="sub Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/sub Waveform Array To Dynamic.vi"/>
 				<Item Name="subAppend Signals.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/Append SignalsSource.llb/subAppend Signals.vi"/>
-				<Item Name="subAppendWfmArrays.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/subAppendWfmArrays.vi"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="subCheck for error and append.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/Append SignalsSource.llb/subCheck for error and append.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
@@ -649,10 +724,10 @@
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="Ex_Extract Single Tone.vi" Type="VI" URL="/&lt;vilib&gt;/express/express analysis/ToneBlock.llb/Ex_Extract Single Tone.vi"/>
-				<Item Name="GetSetShared.lvlib" Type="Library" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Shared VIs/GetSetShared.lvlib"/>
-				<Item Name="Set DDT Attributes.lvlib" Type="Library" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Set DDT Attributes/Set DDT Attributes.lvlib"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="GetSetShared.lvlib" Type="Library" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Shared VIs/GetSetShared.lvlib"/>
+				<Item Name="Set DDT Attributes.lvlib" Type="Library" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Set DDT Attributes/Set DDT Attributes.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
@@ -662,6 +737,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Open LVM Data.vi" Type="VI" URL="../Analysis Support/SubVIs/Open LVM Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Aero Master" Type="EXE">
@@ -691,50 +767,17 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Aero Master/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CA443E0E-95FD-469B-8211-E3EBEA8E609B}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Images/favicon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EC5E560B-A04F-46CF-AD02-1FE1477C11D4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Master VI.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/AnalysisSupport.lvlib</Property>
-				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/CollectionSupport.lvlib</Property>
-				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/MainVIs.lvlib</Property>
-				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/AnalysisSupport.lvlib/SubVIs/Extract Data.vi</Property>
-				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/MainVIs.lvlib/Analysis</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/MainVIs.lvlib/Collection</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/MainVIs.lvlib/Other</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Main VIs/Extract Data.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Wisconsin Dept. of Surgery</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Aero Master</Property>
 				<Property Name="TgtF_internalName" Type="Str">Aero Program Master</Property>
@@ -751,48 +794,64 @@
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{4E5E5D28-CB03-4FCB-83C8-BFB1366DEB04}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI USI 17.0.1</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{013D2F9F-6833-4763-965E-B49B16A4F9E1}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI USI 18.5.5</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{D1EDC484-7B17-11D7-83CE-00C0F03EBEBE}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{207DE609-BB7E-4725-A985-37FDF07B7CCC}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI-DAQmx Runtime 18.0</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{69781499-B643-4C5B-8B02-928DE3BA1DCD}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 (64-bit)</Property>
-				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
-				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
-				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI Logos 20.0</Property>
-				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[2].SoftDepCount" Type="Int">7</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{9A9FE130-6C4C-498B-A054-CEB195F36BB4}</Property>
-				<Property Name="DistPartCount" Type="Int">3</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{054EC2A2-E935-4F66-8D5B-AB8F37F91BEF}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI UsiCore 19.6.0</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{10CCB544-327E-4681-A225-457C5C9A44A2}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{84EDD624-82A5-4A41-8D30-CA43D7560540}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-DAQmx Runtime 20.1</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{69781499-B643-4C5B-8B02-928DE3BA1DCD}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
+				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Error Reporting 2020 (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
+				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
+				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
+				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI Logos 20.0</Property>
+				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2020 (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
+				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{9A9FE130-6C4C-498B-A054-CEB195F36BB4}</Property>
+				<Property Name="DistPartCount" Type="Int">4</Property>
 				<Property Name="INST_author" Type="Str">University of Wisconsin Dept. of Surgery</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Aero Master Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Aero Master Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
+				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Aero Master</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
+				<Property Name="INST_productVersion" Type="Str">3.1.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Wisconsin Dept. of Surgery</Property>
@@ -807,28 +866,16 @@
 				<Property Name="Source[0].dest" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">AeroMaster.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">AeroMaster</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Aero Master</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{8F519282-3354-4DC1-B5C9-E32567DC060D}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">Aero Master</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Aero Master</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="Source[1].dest" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
-				<Property Name="Source[1].name" Type="Str">Calibration Values.txt</Property>
-				<Property Name="Source[1].tag" Type="Ref"></Property>
-				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
-				<Property Name="Source[2].name" Type="Str">Flow Array.txt</Property>
-				<Property Name="Source[2].tag" Type="Ref"></Property>
-				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[3].dest" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
-				<Property Name="Source[3].name" Type="Str">SH Cali.txt</Property>
-				<Property Name="Source[3].tag" Type="Ref"></Property>
-				<Property Name="Source[3].type" Type="Str">File</Property>
-				<Property Name="Source[4].dest" Type="Str">{36CF7131-2D88-4E10-A35C-7A2E539E6F6A}</Property>
-				<Property Name="Source[4].name" Type="Str">SPL Gain.txt</Property>
-				<Property Name="Source[4].tag" Type="Ref"></Property>
-				<Property Name="Source[4].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 			<Item Name="Analysis Master" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -856,54 +903,36 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/Analysis/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/digitalsignalanalyzer_GaS_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{56AAE9AF-D9D6-4CDF-B619-E6E0AB6C1EEC}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Images/digitalsignalanalyzer_GaS_icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EC5E560B-A04F-46CF-AD02-1FE1477C11D4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MainVIs.lvlib/Analysis/Analysis MASTER.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main VIs/Analysis MASTER.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/digitalsignalanalyzer_GaS_icon.ico</Property>
-				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/AnalysisSupport.lvlib/Read SPL Comment.vi</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/MainVIs.lvlib/Analysis/Main Analysis-Incomplete.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Analysis Support/SubVIs/Main Analysis-Incomplete.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/MainVIs.lvlib/Analysis/Main Analysis-Labial.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Analysis Support/SubVIs/Main Analysis-Labial.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/MainVIs.lvlib/Analysis/Main Analysis-Mechanical.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Analysis Support/SubVIs/Main Analysis-Mechanical.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/MainVIs.lvlib/Analysis/Main Analysis-Redirector.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Analysis Support/SubVIs/Main Analysis-Redirector.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/AnalysisSupport.lvlib</Property>
-				<Property Name="Source[6].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Analysis Support/Stand-alone Analysis.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/AnalysisSupport.lvlib/Stand-alone Analysis.vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Analysis Support/SubVIs/Read SPL Comment.vi</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/MainVIs.lvlib</Property>
-				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">Library</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/CollectionSupport.lvlib</Property>
-				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">12</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Analysis Master</Property>
 				<Property Name="TgtF_internalName" Type="Str">Analysis Master</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
@@ -922,33 +951,49 @@
 				<Property Name="DistPart[0].productID" Type="Str">{013D2F9F-6833-4763-965E-B49B16A4F9E1}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI USI 18.5.5</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{D1EDC484-7B17-11D7-83CE-00C0F03EBEBE}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{69781499-B643-4C5B-8B02-928DE3BA1DCD}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 (64-bit)</Property>
-				<Property Name="DistPart[1].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
-				<Property Name="DistPart[1].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[1].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
-				<Property Name="DistPart[1].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[1].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[2].productName" Type="Str">NI Logos 20.0</Property>
-				<Property Name="DistPart[1].SoftDep[2].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[1].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[3].productName" Type="Str">NI mDNS Responder 19.0</Property>
-				<Property Name="DistPart[1].SoftDep[3].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[1].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[4].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[1].SoftDep[4].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[1].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[5].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[1].SoftDep[5].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[1].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[1].SoftDep[6].productName" Type="Str">NI TDM Streaming 19.0</Property>
-				<Property Name="DistPart[1].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[1].SoftDepCount" Type="Int">7</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{9A9FE130-6C4C-498B-A054-CEB195F36BB4}</Property>
-				<Property Name="DistPartCount" Type="Int">2</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{054EC2A2-E935-4F66-8D5B-AB8F37F91BEF}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI UsiCore 19.6.0</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{10CCB544-327E-4681-A225-457C5C9A44A2}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{69781499-B643-4C5B-8B02-928DE3BA1DCD}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 (64-bit)</Property>
+				<Property Name="DistPart[2].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[2].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[2].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[1].productName" Type="Str">NI Deployment Framework 2020</Property>
+				<Property Name="DistPart[2].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[2].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[10].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[2].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[2].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[2].productName" Type="Str">NI Error Reporting 2020 (64-bit)</Property>
+				<Property Name="DistPart[2].SoftDep[2].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
+				<Property Name="DistPart[2].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2020</Property>
+				<Property Name="DistPart[2].SoftDep[3].upgradeCode" Type="Str">{00D0B680-F876-4E42-A25F-52B65418C2A6}</Property>
+				<Property Name="DistPart[2].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[4].productName" Type="Str">NI Logos 20.0</Property>
+				<Property Name="DistPart[2].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[2].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2020 (64-bit)</Property>
+				<Property Name="DistPart[2].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
+				<Property Name="DistPart[2].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[2].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[2].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[2].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[2].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[2].SoftDep[8].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[2].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[2].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[2].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[2].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{9A9FE130-6C4C-498B-A054-CEB195F36BB4}</Property>
+				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/Analysis Installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
@@ -956,7 +1001,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{08DD5378-5843-458E-90F6-3FADA5AD2BB3}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">MasterAnalysis</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.5</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Wisconsin - Madison Dept. Sugery</Property>
