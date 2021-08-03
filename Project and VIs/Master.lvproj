@@ -68,10 +68,8 @@
 				<Item Name="Random Second.vi" Type="VI" URL="../Collection Support/SubVIs/Random Second.vi"/>
 				<Item Name="Random Times.vi" Type="VI" URL="../Collection Support/SubVIs/Random Times.vi"/>
 				<Item Name="Slope Calibration.vi" Type="VI" URL="../Collection Support/SubVIs/Slope Calibration.vi"/>
-				<Item Name="Sound Out.vi" Type="VI" URL="../Collection Support/SubVIs/Sound Out.vi"/>
-				<Item Name="SPL Calculator (2).vi" Type="VI" URL="../Collection Support/SubVIs/SPL Calculator (2).vi"/>
+				<Item Name="Calculate SPL.vi" Type="VI" URL="../Collection Support/SubVIs/Calculate SPL.vi"/>
 				<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Collection Support/SubVIs/Set Enable State on Multiple Controls.vi"/>
-				<Item Name="SPL Calculator.vi" Type="VI" URL="../Collection Support/SubVIs/SPL Calculator.vi"/>
 				<Item Name="Test Type Selection.vi" Type="VI" URL="../Collection Support/SubVIs/Test Type Selection.vi"/>
 				<Item Name="Trial Counter.vi" Type="VI" URL="../Collection Support/SubVIs/Trial Counter.vi"/>
 				<Item Name="Trial time controls.vi" Type="VI" URL="../Collection Support/SubVIs/Trial time controls.vi"/>
@@ -79,10 +77,8 @@
 			<Item Name="Controls" Type="Folder">
 				<Item Name="Balloon.ctl" Type="VI" URL="../Collection Support/Controls/Balloon.ctl"/>
 				<Item Name="FirstCall.ctl" Type="VI" URL="../Collection Support/Controls/FirstCall.ctl"/>
-				<Item Name="Male_Female.ctl" Type="VI" URL="../Collection Support/Controls/Male_Female.ctl"/>
 				<Item Name="Mech-Labial Test Types.ctl" Type="VI" URL="../Collection Support/Controls/Mech-Labial Test Types.ctl"/>
 				<Item Name="PED States.ctl" Type="VI" URL="../Collection Support/Controls/PED States.ctl"/>
-				<Item Name="Test Type.ctl" Type="VI" URL="../Collection Support/Controls/Test Type.ctl"/>
 			</Item>
 			<Item Name="Loop Controls" Type="Folder">
 				<Item Name="Balloon Control.vi" Type="VI" URL="../Collection Support/SubVIs/Balloon Control.vi"/>
@@ -151,9 +147,6 @@
 				<Item Name="__savePropTime.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__savePropTime.vi"/>
 				<Item Name="__savePropUInt8.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__savePropUInt8.vi"/>
 				<Item Name="__setErrSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/__setErrSource.vi"/>
-				<Item Name="_ArrWfmsTo1DInterleave.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_ArrWfmsTo1DInterleave.vi"/>
-				<Item Name="_ArrWfmsTo2DArr.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_ArrWfmsTo2DArr.vi"/>
-				<Item Name="_ArrWfmsToData.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_ArrWfmsToData.vi"/>
 				<Item Name="_checkInstAttrError.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/_checkInstAttrError.vi"/>
 				<Item Name="_closeDataStorage.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_closeDataStorage.vi"/>
 				<Item Name="_commitObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_commitObject.vi"/>
@@ -162,7 +155,6 @@
 				<Item Name="_createChildObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_createChildObject.vi"/>
 				<Item Name="_createObject.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_createObject.vi"/>
 				<Item Name="_findOpenStorage.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_findOpenStorage.vi"/>
-				<Item Name="_Get Sound Error From Return Value.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/_Get Sound Error From Return Value.vi"/>
 				<Item Name="_getChannelLength.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/_getChannelLength.vi"/>
 				<Item Name="_getObjDefByName.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/_getObjDefByName.vi"/>
 				<Item Name="_getPropDefByName.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/_getPropDefByName.vi"/>
@@ -598,7 +590,6 @@
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLParams.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/ParseXMLParams.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="Sampling Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sampling Mode.ctl"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
@@ -618,16 +609,6 @@
 				<Item Name="Set Property.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/Set Property.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Sound Data Format.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Data Format.ctl"/>
-				<Item Name="Sound Output Configure.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Configure.vi"/>
-				<Item Name="Sound Output Task ID.ctl" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Task ID.ctl"/>
-				<Item Name="Sound Output Write (DBL Single).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (DBL Single).vi"/>
-				<Item Name="Sound Output Write (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (DBL).vi"/>
-				<Item Name="Sound Output Write (I16).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (I16).vi"/>
-				<Item Name="Sound Output Write (I32).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (I32).vi"/>
-				<Item Name="Sound Output Write (SGL).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (SGL).vi"/>
-				<Item Name="Sound Output Write (U8).vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write (U8).vi"/>
-				<Item Name="Sound Output Write.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound Output Write.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="specialProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/Storage.llb/specialProperties.ctl"/>
 				<Item Name="sub Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/sub Waveform Array To Dynamic.vi"/>
@@ -730,7 +711,6 @@
 				<Item Name="ex_Math.vi" Type="VI" URL="/&lt;vilib&gt;/express/express arith-compare/TimeDomainMathBlock.llb/ex_Math.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="lvsound2.dll" Type="Document" URL="/&lt;resource&gt;/lvsound2.dll"/>
 			<Item Name="lvStorage.dll" Type="Document" URL="lvStorage.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -801,7 +781,7 @@
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Aero Master</Property>
 				<Property Name="INST_productVersion" Type="Str">3.1.1</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Wisconsin Dept. of Surgery</Property>
 				<Property Name="MSI_distID" Type="Str">{3D46A89B-9CC3-445C-AF9B-6667B1CECEF0}</Property>
@@ -904,7 +884,7 @@
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">MasterAnalysis</Property>
 				<Property Name="INST_productVersion" Type="Str">2.1.7</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">20018000</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Wisconsin - Madison Dept. Sugery</Property>
 				<Property Name="MSI_distID" Type="Str">{CBBB6E55-B588-4D01-B106-867E0935C058}</Property>
