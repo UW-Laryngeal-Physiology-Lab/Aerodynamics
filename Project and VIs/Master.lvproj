@@ -25,6 +25,12 @@
 			<Item Name="Timeout Check.vi" Type="VI" URL="../Main VIs/Timeout Check.vi"/>
 		</Item>
 		<Item Name="Analysis Support" Type="Folder">
+			<Item Name="Controls" Type="Folder">
+				<Item Name="Intervals.ctl" Type="VI" URL="../Analysis Support/Controls/Intervals.ctl"/>
+				<Item Name="Master Analysis States.ctl" Type="VI" URL="../Analysis Support/Controls/Master Analysis States.ctl"/>
+				<Item Name="Select Analysis.ctl" Type="VI" URL="../Analysis Support/Controls/Select Analysis.ctl"/>
+				<Item Name="UI Data-Clipper.ctl" Type="VI" URL="../Analysis Support/Controls/UI Data-Clipper.ctl"/>
+			</Item>
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="Main Analysis-Incomplete.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Incomplete.vi"/>
 				<Item Name="Main Analysis-Labial.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Labial.vi"/>
@@ -45,15 +51,6 @@
 				<Item Name="Main Analysis-Redirector.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Redirector.vi"/>
 				<Item Name="Check for Empty Data.vi" Type="VI" URL="../Analysis Support/SubVIs/Check for Empty Data.vi"/>
 			</Item>
-			<Item Name="Controls" Type="Folder">
-				<Item Name="F0 Cluster.ctl" Type="VI" URL="../Analysis Support/Controls/F0 Cluster.ctl"/>
-				<Item Name="F0 Extraction States.ctl" Type="VI" URL="../Analysis Support/Controls/F0 Extraction States.ctl"/>
-				<Item Name="F0 Extraction Test Types.ctl" Type="VI" URL="../Analysis Support/Controls/F0 Extraction Test Types.ctl"/>
-				<Item Name="Intervals.ctl" Type="VI" URL="../Analysis Support/Controls/Intervals.ctl"/>
-				<Item Name="Master Analysis States.ctl" Type="VI" URL="../Analysis Support/Controls/Master Analysis States.ctl"/>
-				<Item Name="Select Analysis.ctl" Type="VI" URL="../Analysis Support/Controls/Select Analysis.ctl"/>
-				<Item Name="UI Data-Clipper.ctl" Type="VI" URL="../Analysis Support/Controls/UI Data-Clipper.ctl"/>
-			</Item>
 			<Item Name="Stand-alone Analysis.vi" Type="VI" URL="../Analysis Support/Stand-alone Analysis.vi"/>
 		</Item>
 		<Item Name="Calibration Support" Type="Folder">
@@ -62,14 +59,12 @@
 		<Item Name="Collection Support" Type="Folder">
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="Convert Flow Array.vi" Type="VI" URL="../Collection Support/SubVIs/Convert Flow Array.vi"/>
-				<Item Name="Find Match Values.vi" Type="VI" URL="../Analysis Support/SubVIs/Find Match Values.vi"/>
 				<Item Name="Flow Array Compare.vi" Type="VI" URL="../Collection Support/SubVIs/Flow Array Compare.vi"/>
 				<Item Name="Get Calibration Data.vi" Type="VI" URL="../Collection Support/SubVIs/Get Calibration Data.vi"/>
 				<Item Name="Random Second.vi" Type="VI" URL="../Collection Support/SubVIs/Random Second.vi"/>
 				<Item Name="Random Times.vi" Type="VI" URL="../Collection Support/SubVIs/Random Times.vi"/>
 				<Item Name="Slope Calibration.vi" Type="VI" URL="../Collection Support/SubVIs/Slope Calibration.vi"/>
 				<Item Name="Calculate SPL.vi" Type="VI" URL="../Collection Support/SubVIs/Calculate SPL.vi"/>
-				<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Collection Support/SubVIs/Set Enable State on Multiple Controls.vi"/>
 				<Item Name="Test Type Selection.vi" Type="VI" URL="../Collection Support/SubVIs/Test Type Selection.vi"/>
 				<Item Name="Trial Counter.vi" Type="VI" URL="../Collection Support/SubVIs/Trial Counter.vi"/>
 				<Item Name="Trial time controls.vi" Type="VI" URL="../Collection Support/SubVIs/Trial time controls.vi"/>
@@ -102,6 +97,18 @@
 				<Item Name="Create User Event - Stop.vi" Type="VI" URL="../Collection Support/User Event - Stop/Create User Event - Stop.vi"/>
 				<Item Name="Fire User Event - Stop.vi" Type="VI" URL="../Collection Support/User Event - Stop/Fire User Event - Stop.vi"/>
 				<Item Name="Destroy User Event - Stop.vi" Type="VI" URL="../Collection Support/User Event - Stop/Destroy User Event - Stop.vi"/>
+			</Item>
+		</Item>
+		<Item Name="Other Support" Type="Folder">
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Find Match Values.vi" Type="VI" URL="../Other Support/SubVIs/Find Match Values.vi"/>
+				<Item Name="Open LVM Data.vi" Type="VI" URL="../Analysis Support/SubVIs/Open LVM Data.vi"/>
+				<Item Name="Set Enable State on Multiple Controls.vi" Type="VI" URL="../Other Support/SubVIs/Set Enable State on Multiple Controls.vi"/>
+			</Item>
+			<Item Name="Controls" Type="Folder">
+				<Item Name="F0 Extraction Test Types.ctl" Type="VI" URL="../Other Support/Controls/F0 Extraction Test Types.ctl"/>
+				<Item Name="F0 Cluster.ctl" Type="VI" URL="../Other Support/Controls/F0 Cluster.ctl"/>
+				<Item Name="F0 Extraction States.ctl" Type="VI" URL="../Other Support/Controls/F0 Extraction States.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Images" Type="Folder">
@@ -717,7 +724,6 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Open LVM Data.vi" Type="VI" URL="../Analysis Support/SubVIs/Open LVM Data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Aero Master" Type="EXE">
