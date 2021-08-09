@@ -35,6 +35,7 @@
 				<Item Name="Main Analysis-Incomplete.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Incomplete.vi"/>
 				<Item Name="Main Analysis-Labial.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Labial.vi"/>
 				<Item Name="Main Analysis-Mechanical.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Mechanical.vi"/>
+				<Item Name="Main Analysis-Redirector.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Redirector.vi"/>
 				<Item Name="Find SGP and PTP.vi" Type="VI" URL="../Analysis Support/SubVIs/Find SGP and PTP.vi"/>
 				<Item Name="Flow.vi" Type="VI" URL="../Analysis Support/SubVIs/Flow.vi"/>
 				<Item Name="Incomplete Analysis Type Selection.vi" Type="VI" URL="../Analysis Support/SubVIs/Incomplete Analysis Type Selection.vi"/>
@@ -48,7 +49,6 @@
 				<Item Name="Save Data.vi" Type="VI" URL="../Analysis Support/SubVIs/Save Data.vi"/>
 				<Item Name="SGP Calculator.vi" Type="VI" URL="../Analysis Support/SubVIs/SGP Calculator.vi"/>
 				<Item Name="SplitSignals.vi" Type="VI" URL="../Analysis Support/SubVIs/SplitSignals.vi"/>
-				<Item Name="Main Analysis-Redirector.vi" Type="VI" URL="../Analysis Support/SubVIs/Main Analysis-Redirector.vi"/>
 				<Item Name="Check for Empty Data.vi" Type="VI" URL="../Analysis Support/SubVIs/Check for Empty Data.vi"/>
 			</Item>
 			<Item Name="Stand-alone Analysis.vi" Type="VI" URL="../Analysis Support/Stand-alone Analysis.vi"/>
