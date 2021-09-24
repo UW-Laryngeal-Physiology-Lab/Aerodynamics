@@ -738,7 +738,7 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Aero Master</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Executable File</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AE6347B9-AEF5-4BD0-B92D-2260388AF057}</Property>
@@ -747,14 +747,14 @@
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">AeroMaster.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Aero Master/AeroMaster.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Executable File/AeroMaster.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Aero Master/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Executable File/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Images/favicon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EC5E560B-A04F-46CF-AD02-1FE1477C11D4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FFA08922-486B-4F52-87F9-008CA42F49A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Master VI.vi</Property>
@@ -823,7 +823,7 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Analysis</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Executable File (Analysis Only)</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{39989C42-DA84-4339-AE3F-C9ACF36AE9ED}</Property>
@@ -832,14 +832,14 @@
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
 				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">AnalyzeAero.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Analysis/AnalyzeAero.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Executable File (Analysis Only)/AnalyzeAero.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Analysis/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Executable File (Analysis Only)/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Images/digitalsignalanalyzer_GaS_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EC5E560B-A04F-46CF-AD02-1FE1477C11D4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FFA08922-486B-4F52-87F9-008CA42F49A8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main VIs/Analysis MASTER.vi</Property>
